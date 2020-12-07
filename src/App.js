@@ -1,17 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-// var heartDictionary = {
-//   "💔": "Broken heart",
-//   "💖": "Sparkling heart",
-//   "💚": "Eco friendly heart",
-//   "💞": "Revolving hearts",
-//   "🖤": "Black heart",
-//   "💗": "Growing heart",
-//   "💑": "Couple with heart",
-//   "💕": "Two hearts"
-// };
-
 var heartDictionary = {
   "💔": {
     meaning: "Broken heart",
@@ -56,9 +45,6 @@ var heartDictionary = {
 
 var heartEmojis = Object.keys(heartDictionary);
 export default function App() {
-  // var username = "Aman Sethi";
-  // var welcomeMsgcolor = "blue";
-  // const [userInput,setUserInput] = useState("");
   const [output, setOutput] = useState("meaning will come here");
   // var likeCounter=0;
   const [outputDescription, setOutputDescription] = useState(

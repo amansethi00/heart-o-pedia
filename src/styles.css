@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap");
+
+.App {
+  font-family: "Lovers Quarrel", cursive;
+  font-size: x-large;
+  text-align: center;
+}
+.zoom {
+}
+h4 {
+  width: 70%;
+  height: 8rem;
+  margin: auto;
+  justify-items: center;
+
+  font-size: "x-large";
+}
